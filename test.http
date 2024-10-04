@@ -1,0 +1,27 @@
+GET http://localhost:5262/api/Guide
+
+###
+POST http://localhost:5262/api/Guide
+Content-Type: application/json
+
+{
+    "id": null,
+    "Name": "Test Name2",
+    "DateOfBirth": "1997-11-11",
+    "GuideName": "Test Guide"
+}
+
+###
+PUT http://localhost:5262/api/Guide
+Content-Type: application/json
+
+{
+    "id": "66fe8615ff74096c157f333f",
+    "Name": "UpdateName2",
+    "DateOfBirth": "1997-11-02",
+    "GuideName": "Update Guide2"
+}
+
+###
+DELETE http://localhost:5262/api/Guide/66fe8615ff74096c157f333f
+
